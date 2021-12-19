@@ -1,0 +1,84 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: separate;
+  border: 3px solid rgb(33, 1, 109);
+  border-radius: 26px;
+}
+.head {
+  color: rgb(33, 1, 109);
+}
+thead th:nth-child(1) {
+  width: 30%;
+}
+.container {
+  height: 400px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+    margin: 10%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 80%;
+    margin: 10%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+    margin: 10%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 80%;
+    margin: 10%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 60%;
+    margin: 3% 20%;
+  }
+}
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th,
+td {
+  padding: 20px;
+  color: rgb(33, 1, 109);
+}
+
+th {
+  letter-spacing: 2px;
+}
+th:hover {
+  background-color: rgb(255, 245, 245);
+  border-radius: 26px;
+}
+
+td {
+  letter-spacing: 1px;
+}
