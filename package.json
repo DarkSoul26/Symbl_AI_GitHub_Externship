@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "axios": "^0.24.0",
     "react-canvas-confetti": "^1.2.1",
     "react-snow-effect": "^1.2.0",
     "react-snowfetti": "^1.2.4"

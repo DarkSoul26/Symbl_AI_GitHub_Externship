@@ -7,17 +7,17 @@
     <title>Question2</title>
   </head>
   <body>
-    <script ">
-    const URL = './data.json';
-        async function getData() {
-        const response = await fetch(URL);
+    <script>
+      const URL1 = "./data.json";
+      async function getData() {
+        const response = await fetch(URL1);
 
         const res = await response.json();
-            res.data.sort((a,b) => parseFloat(a.id)-parseFloat(b.id));
-            for(let i  = 0; i<res.data.length;i++){
-                console.log("Id-"+res.data[i].id+", Name-"+res.data[i].name);
-            }
+        res.data.sort((a, b) => parseFloat(a.id) - parseFloat(b.id));
+        for (let i = 0; i < res.data.length; i++) {
+          console.log("Id-" + res.data[i].id + ", Name-" + res.data[i].name);
         }
+      }
       getData();
     </script>
   </body>
